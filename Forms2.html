@@ -1,0 +1,79 @@
+<html>
+ <head>
+  <title>Forms</title>
+  </head>
+   <body>
+    <div>
+    <table>
+     <forms>
+	  <tr>
+	   <td>
+	    <span><b>First Name:</b><input type="text"/>
+		 </td>
+		 </tr>
+		  <tr>
+		   <td>
+	 <span><b>Last Name:</b><input type="text"/>
+	  </td>
+	  </tr>
+	   <tr>
+	    <td>
+	 <input type="Submit"/>
+	 </tr>
+	  </td>
+	  <tr>
+	  <td>
+	  <input type="radio" name="gender"  value="Male">Male</input>
+	  <input type="radio" checked name= "gender" value="Female">Female</input>
+	  <input type="radio" name= "gender" value="Other">Other</input>
+	  </tr>
+	  </td>
+	  <tr>
+	  <td>
+	  <!--If you write the size, then it will give an optiin to scrol down so that the page wonr be full, if you write Multiple then it will allow u to select multiple cities-->
+	   <select name="city" size="3" multiple>
+	   <option value="Newyork">Newyork</option>
+	   <option value="Herndon">Herndon</option>
+	   <option value="Reston">Reston</option>
+	   <option value="Chantilly">Chantilly</option>
+	   <option value="Leesburg">Leesburg</option>
+	   </tr>
+	   </td>
+	   </select>
+	    <tr>
+	     <td>
+		  <button type="Button" onclick="alert('HelloThere');" name="Hello" >Click Here!
+			 </button>
+		  </td>
+		  </tr>
+		  <tr>
+		   <td>
+		    <input list="Browsers">
+		     <datalist id="Browsers">
+		      <option value="Chrome"/>
+		      <option value="Firefox"/>
+		      <option value="IE"/>
+		      <option value="Mozilla"/>
+		      <option value="Edge"/>
+			  </td>
+			 </tr>
+			 <tr>
+			 <td>
+		      </input>
+			  <input type="number"
+			  name="Number"
+			  min="0"
+			  max="100"
+			  step="10"
+			  value="30"/>
+			  </td>
+			  </tr>
+			  <tr>
+			  <td>
+			  <input type="email" name="Email" required/>
+			  </td>
+			  </tr>
+	   
+	   	</forms> 
+ </body>
+ </html>

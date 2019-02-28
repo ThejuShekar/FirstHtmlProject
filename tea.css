@@ -1,0 +1,19 @@
+body {
+	background-image: url("./Images/xyz.jpg");
+}
+#circle{
+	background-color:lightblue;	width:450px;height:250px;border-radius:55%;
+	
+}
+#square{
+    background-color:red; width:250px;height:250px;
+}
+#rectangle{
+	background-color:orange; width:400px;height:250px;
+}
+h1 {
+	color:red;
+}
+.tea{
+	color:blue;
+}

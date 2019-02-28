@@ -1,0 +1,3 @@
+C:\Users\Theju.S\Desktop\Training Revature\flower.jpg = flower.jpg
+C:\Users\Theju.S\Desktop\Training Revature\Images\nature.jepg = Images\nature.jepg = .\Images\nature.jepg
+C:\Users\Theju.S\Desktop\Pics\followers.jpg = ../pics/followers.jpg

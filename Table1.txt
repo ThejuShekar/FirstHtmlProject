@@ -1,0 +1,28 @@
+<html>
+ <head>
+  <title>Table</title>
+   </head>
+    <body>
+	 <div>
+	  <table>
+	   <tr>
+	    <td>
+		 <span><b>First Name:</b></span>
+		 </td>
+		  <td>
+		   <span><b>Last Name:</b></span>
+		   </td>
+		  </tr>
+        <tr>
+          <td>
+            <span><b>City:</b></span>
+              </td>
+          </tr>
+        <tr>
+         <td>
+          <span><b>State</b></span>
+           </td>
+         </tr>
+      </div>		 
+   </body>
+ </html>

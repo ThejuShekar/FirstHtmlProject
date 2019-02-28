@@ -1,0 +1,10 @@
+Unicode:
+<html>
+  <head>
+    <title>Home</title>
+	<meta charset="UTF-8"  //files shuld be stored in Unicode if it is unicode.
+	  name=" Name" description="my first page"/> // we can provide name and its description for our page
+	  
+	  name="keyword" content= "Html tutorial sample" // when user search webpage and if it has a keyword from the content it will display the page
+	   name="author" content="Ajay Singala:/>
+        <meta http.equiv="refresh" content="30"/> // if you would like to refresh the page every 30seconds.
