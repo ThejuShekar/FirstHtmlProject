@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+   <title>Event listener</title>
+    <script>
+	 function init(){
+	 
+	   document.getElementById("btnclick").addEventListener("click",showname);
+	 
+	}
+	function showName(){
+	 
+			var name=document.getElementById("fname").value;
+			alert("You entered" + name);
+	}
+	function showNameAgain(){
+			var name=document.getElementById("fname").value;
+		alert("You entered the name " + name);
+	}
+	</script>
+  </head>
+  <body onload="init();">
+      Name: <input type="text" id="fname"/>
+	<button id="btnclick">Click Me!</button>
+	<script>
+	 document.getElementById("btnclick").addEventListener("click",shownName);
+	 document.getElementById("btnclick").addEventListener("click",shownNameAgain);
+	</script>
+  </body>
+ </html>

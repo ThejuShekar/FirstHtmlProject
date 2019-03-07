@@ -1,0 +1,124 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	background-color:#7C96A7;
+}
+#mystyle{
+	background-color:turquoise;
+}
+h1,h2{
+	color:white;
+	text-align:center;
+}
+h3{
+	
+	text-align:center;
+	color:red;
+}
+legend{
+	color:green;
+	
+}
+.profileclass{
+	color:black;
+}
+nav{
+	text-align:right;
+}
+nav li {
+        text-align:right;
+	display: inline;
+	} 
+nav a{
+	padding-right:35px;
+	color:white;
+	}
+form{
+	padding:1em;
+	
+}
+ul li:hover{ background-color:grey;
+	
+}
+#divstyle{
+	background-color:#D6E8EF;
+	width:80%;
+	margin-left : auto;
+	margin-right : auto;
+}
+label{float: left;
+	text-align:right;
+	width:200px;
+	font-size: 15px;
+	padding-top:3px;
+	padding-right: 3px;
+	padding-bottom:3px;
+}
+
+.star{
+	color:red
+}
+input{
+font-size: 1em;
+	padding: 0.3em 0 0.3em 0;
+	margin-bottom: 0.6em;
+}
+select{font-size: 1em;
+	padding: 0.3em 0 0.3em 0;
+	margin-bottom: 0.6em;
+}
+.mybutton{background-color:silver;
+		padding:.5em 1.5em .5em 1.5em;
+		margin-left:6em;
+}
+#div-style{
+	background-color:lightblue;
+	width:80%;
+	height:40%;
+	margin-left : auto;
+	margin-right : auto;
+	text-align:center;
+}
+.pclass{float:left;	
+	width:200px;	
+}
+h4{
+	font-size:20;
+	text-align:center;
+	color:green;
+}
+#prodcttabl  {
+	     width:95%;
+		 border-collapse:collapse;
+		 background-color:WhiteSmoke;
+		 color: black;
+	     margin: auto;	 
+		 
+}
+th,td {
+	text-align:left;
+	padding:10px;
+	
+}
+#prodcttabl,th,td {
+	border:1px solid;
+	
+	}
+	#prodcttabl th{	
+	 background-color: lightblue;
+	text-align: center;
+	border: 1px solid black;
+	font-size: 1.1em;
+	padding: 15px;
+	}
+	#prodcttabl tr:hover { background-color:lightgrey; 
+	
+	}
+#prodcttabl img{
+	width:auto;height: 90px;
+}
+#homecover{
+	background-image:url("Winter.jpg");
+	background-size:cover;
+}

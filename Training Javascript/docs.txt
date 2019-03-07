@@ -1,0 +1,18 @@
+http://github.com/AjaySingala/JavascriptDemos.git
+
+asssignment:
+Here are some guidelines:
+1. Create a game using HTML, CSS and Javascript.
+2.Use atleast 15 different HTMl tags
+3. Write custome CSS, using at least 3 different types of selectors
+4.Using JS, impliment atleast 2 event listeners.
+5. using JS, query and manipulate the DOM to provide game functionality
+
+(use the images that change when they click so on)
+
+Game suggestion:(we can chose our own)
+
+Tic-Tac-Toe
+Hangman
+guessing game(match cards that turn over when you click them)
+Yahtezee

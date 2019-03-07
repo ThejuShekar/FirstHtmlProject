@@ -1,0 +1,32 @@
+<!DOCTYPE>
+ <html>
+  <head>
+    <title>ShowAutomaticPopup</title>
+  </head>
+   <script>
+   function validateForm(){
+		  var x=document.forms["myForm"]["fname"].value;
+		  if(x==""){
+		  alert("Name must be filled out");
+		  document.forms["myForm"]["fname"].title="Enter the Name";
+		  return false;
+		  
+		  }
+		}
+		function resettitle(){
+		document.forms["myForm"]["fname"].title="";
+		}
+		    </script>
+   
+   <body>
+     	 <!--add a tooltip "title" in orderv to have a pop up message says enter name"-->
+     <form name="myForm" action="" onsubmit="return validateForm()" method="post">
+			Name:<input type="text" id="fname" onchange="resettitle()"/>
+			<input type="submit" value="Submit"/>
+			
+			</form>
+			</div>
+     
+   </body>
+    <label>
+  </html>

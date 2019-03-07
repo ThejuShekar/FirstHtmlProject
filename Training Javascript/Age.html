@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+ <html>
+  </html>
+   <head>
+    <title>Age</title>
+     <script>
+      function checkEligibility()
+        {
+			var age=document.getElementById("textAge").value;
+			if(age>=18 && age<=60)
+		{ 
+	   alert("You are eligible to Work!");
+		}
+		if(age<18|| age>60)
+		{
+     alert("You are not eligible to Work!");
+   }
+ }
+	    	   	  
+	   </script>
+     </head>
+	 <body>
+	   <label>Age</label> 
+	   <input type="number" id="textAge"/>
+	   <button type="button" onclick="checkEligibility();">
+	   Check Eligibility
+	   </button>
+	  	   
+	 </body>
+</html>

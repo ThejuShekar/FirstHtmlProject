@@ -1,0 +1,29 @@
+<!DOCTYPE>
+ <html>
+  </html>
+  <head>
+   <title>variable</title>
+   	    <script>
+			function getFullname() {
+				var fname=document.getElementById("firstname").value;
+				var lname=document.getElementById("lastname").value;
+				var funame=lname+','+fname;
+				document.getElementById("fullname").innerHTML=funame;
+		  
+			}
+	   
+	   </script>	   
+     </head>
+	  <body>
+
+	 	<label>First Name</label>
+			<input type="text" value="John" id="firstname"/>
+	  <label>Last Name</label>
+			<input type="text" value="Smith" id="lastname"/>
+	  <button type="button" onclick="getFullname();">
+			Show Fullname
+	  </button>
+	  <label id="fullname"></label>
+	  </body>
+	 
+</html>

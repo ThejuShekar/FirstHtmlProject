@@ -1,0 +1,21 @@
+<!Doctype html>
+	<html>
+			<body>
+		 <h2> JavaScript Prompt</h2>
+		 <button onclick="myFunction()">Try It</button>
+		 <p id="demo"></p>
+		 <script>
+		  function myFunction(){
+		  var text;
+		  var person=prompt("Please enter your name:", "Harry potter");
+		  if(person ==null || person ==""){
+		  text="User cancelled the Promt.";
+		  }
+		  else{
+		  text="Hello"+person+" How are you today?";
+		  }
+		  document.getElementById("demo").innerHTML=text;
+	}
+		 </script>
+		</body>
+	</html>
