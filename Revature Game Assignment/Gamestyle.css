@@ -1,0 +1,169 @@
+/*game css*/
+
+*{
+    margin:0; padding:0;
+    font-family:'Merienda', cursive;;
+}
+body{
+    background-image:linear-gradient(rgba(65, 62, 62, 0.753),rgba(65, 62, 62, 0.753)), url("background.jpg");
+    background-size: cover;
+}
+.Maindiv{
+    width:60%; text-align: center; margin: auto;
+}
+#gameHead{
+    font-size:40px;
+    color:red;
+
+}
+
+.dice{
+        text-align: center; display: inline-block ;
+}
+h1{
+    margin: 10px;
+    text-shadow: 5px 5px rgb(240, 248, 243);
+    font-size: 80px;
+    color:rgb(9, 190, 9);
+}
+p{
+    font-size:30px;
+    color:white; text-shadow: 2px 2px rgb(11, 12, 12);
+    padding:10px;
+}
+button{
+    padding:5px; background-color: rgb(42, 42, 44); color:whitesmoke;
+    border:none;
+    font-size: 30px;
+    border:solid;
+}
+
+
+img{
+    width:  200px;
+    height: 200px;  
+    padding: 20px;   
+}
+
+/* login page css*/
+
+
+#mystyle{
+    background:rgb(148, 151, 151);
+}
+nav{
+	text-align:right;
+}
+nav li {
+        text-align:right;
+        display: inline;
+    
+	} 
+nav a{
+    padding: 20px 20px 20px 20px; 
+    color:white;
+    
+}
+ul li:hover{ background-color:grey;
+    transition: 0.6s ease;
+}
+
+
+#div-style{
+	background-color:rgb(95, 100, 102);
+	width:80%;
+	height:65%;
+	margin-left : auto;
+	margin-right : auto;
+    text-align:center;
+    margin-top: 40px;
+}
+h2{
+	color:white;
+    text-align:center;
+    
+}
+.star{
+	color:red
+}
+
+input{
+    font-size: 1em;
+	padding: 5px 5px 5px 5px;
+    margin-top: 2em;   
+        
+}
+
+
+.mybutton{
+    background-color:silver;
+    padding:.5em 1.5em .5em 1.5em;
+    margin-left:5em;
+    margin-right:2em;
+    margin-bottom:2em;
+    margin-top: 2em; 
+      
+}
+.loginP{
+    font-size: 15px;
+    margin-bottom:8em;
+    
+}
+.loginA{
+    color:rgb(11, 11, 15);
+    text-shadow: none;
+}
+.loginclass{
+
+    margin-top: 1.5em;
+    margin-right: 1.5em;
+    margin-bottom:1.5em;
+    margin-left:1.5em;
+    font-size: 15px;
+	padding: 5px 5px 5px 5px;
+    
+}
+/*Gameregistration css*/
+
+#regbody{
+    background: dimgray;
+}
+#divstyle{
+	background-color:rgb(135, 139, 139);
+	width:75%;
+	margin-left : auto;
+    margin-right : auto;
+}
+form{
+    padding:1em;
+}
+.reglabel{
+    float: left;
+	text-align:right;
+	width:200px;
+	font-size: 15px;
+	padding-top:3px;
+	padding-right: 3px;
+	padding-bottom:3px;
+}
+
+/*Logout css*/
+
+#logoutdiv{
+    padding:20px 20px 20px 20px;
+    
+}
+.logouthead{
+    font-size:50px;
+}
+.logoutlabel{
+    float: left;
+	text-align:right;
+	width:500px;
+    font-size: 23px;
+    padding: 1em 1em 1em 1em;
+    
+}
+.logbutton{
+    font-size:20px;
+}

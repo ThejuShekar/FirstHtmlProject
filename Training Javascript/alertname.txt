@@ -1,0 +1,24 @@
+<script>
+ function myFunction(){
+ 
+ var name=document.getElementById("demo").value
+ 
+ Alert("Hello Welcome " + name); 
+ 
+}
+</script>
+<body>
+<button type="button" onlick="myFunction()"> Click Me</button>
+<input id="demo" type="text" />
+=========================================
+
+Function test(x){
+alert("welcome" + x)
+}
+<button onclick="test(x)"/>
+=================================
+
+<input type="text" id="name"
+<button onclick="test(document.getElementById("name").value;">
+click me
+</button>

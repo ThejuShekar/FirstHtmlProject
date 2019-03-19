@@ -1,0 +1,21 @@
+Hi All, Good Morning!
+ This is a simple Dice game I have created using HTML, CSS and Javascript.
+There are two players. If Player! get a number higher than 2, it will display player 1 won and if both are draw, it will display draw. Its more like a guess game., If i guess player 1 will win and your frnd says player2 win, and click the button, then if player2 win, your frnd's guess is right.. Here is the HTML code I have written for this. This is the division and this is the java script. etc.. 
+
+constant: Not a constant value; It defines a constant reference to a value.
+
+>>math.random will give me decimeal values betwnn 0 to 1. Multiplied by 6 will give values between 0 to 5 with decimel. I am rounding off it with math.floor method. To get integers between 1 to 6 for dice, am adding +1. and assigning it to const play1.
+>>With value of play1 variable building play1dice dynamically to get the correct image name.
+>> then i get the id of image i need to change, set the attribute by
+giving Name and Value.
+
+>> Math.floor(Math.random()*6)+1; --- +1 adding because we dont need between 0-5, we need between 1 to 6.
+Math.random(); gives decimel betwn 0 to 1
+Math.floor round of the value to the  earest integer.
+
+const>> the value will be constant throughtout the function and it will stay until the end and next time we call the function, the next value will be constant. Using Var we can change the value.. 
+
+
+
+
+
